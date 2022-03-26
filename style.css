@@ -1,0 +1,126 @@
+:root {
+    --font-Montserrat: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: var(--font-Montserrat), sans-serif;
+    background-color: #201636;
+    width: 1920px;
+    height: 2500px;
+    padding-left: 61px;
+    padding-top: 238px;
+    color: #FFFFFF;
+}
+
+.human {
+    width: 1229px;
+    height: 831px;
+}
+
+.couching {
+    width: 670px;
+    height: 113px;
+}
+
+.couch {
+    font-family: var(--font-Montserrat), sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.content {
+    margin-top: 62px;
+    width: 670px;
+    height: 54px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 6px;
+    border: 1px solid grey;
+
+}
+
+.content-text {
+    text-align: center;
+    width: 667px;
+    height: 54px;
+    font-family: var(--font-Montserrat), sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #211637;
+}
+
+.right {
+    float: right;
+    width: 670px;
+    position: absolute;
+    top: 431px;
+    left: 934px;
+}
+
+.btn {
+    width: 300px;
+    height: 56px;
+    background: #F09F0C;
+    box-shadow: 1px 4px 20px #7D5103;
+}
+
+.missel {
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 49px;
+    align-items: center;
+}
+
+div > [title*="missel"] {
+    width: 68px;
+    height: 68px;
+    position: relative;
+}
+
+div > [title*="line"] {
+    width: 92px;
+    height: 25px;
+}
+
+.fon {
+    width: 1917px;
+    height: 783px;
+    opacity: 0.6;
+    background-image: url('./img/fon.png');
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.box {
+    width: 370px;
+    margin-right: 5%;
+
+
+}
+
+.box img {
+    width: 100px;
+    height: 100px;
+    padding-left: 25%;
+    margin-bottom: 28px;
+
+}
+
+.box > div > span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+
+
+}
